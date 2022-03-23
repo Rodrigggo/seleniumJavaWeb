@@ -9,3 +9,7 @@
 -  [Download do Eclipse](https://www.eclipse.org/downloads/)
 
 ###### Depois de realizar as instalações, de um git clone do repositório na sua máquina e importe o projeto na IDE que foi sugerida.
+
+###### As evidências é gerada no formato doc no seguinte diretório:
+
+Projeto_Cucumber\resources\reports

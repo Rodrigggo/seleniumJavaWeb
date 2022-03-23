@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4576527200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PesquisaStep.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validar a funcionalidade de pesquisar com nome inexistente",
+        "description": "",
+        "id": "consultar-vagas;validar-a-funcionalidade-de-pesquisar-com-nome-inexistente;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 664347200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PesquisaStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5693086700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Acessar o site \"https://blogdoagi.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://blogdoagi.com.br/",
+                  "offset": 16
+                }
+              ],
+              "location": "PesquisaStep.acessar_o_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1826885500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Realizo uma pesquisa com o nome \"haha�\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "haha�",
+                  "offset": 33
+                }
+              ],
+              "location": "PesquisaStep.pesquisoNome(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43824400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Valido que foi exibido a mensagem de nenhum resultado encontrado",
+            "match": {
+              "location": "PesquisaStep.validoResultadoNaoEncontrado()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3260332000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PesquisaStep.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validar a funcionalidade de pesquisar com nome valido",
+        "description": "",
+        "id": "consultar-vagas;validar-a-funcionalidade-de-pesquisar-com-nome-valido;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 83272300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PesquisaStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4800624000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Acessar o site \"https://blogdoagi.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://blogdoagi.com.br/",
+                  "offset": 16
+                }
+              ],
+              "location": "PesquisaStep.acessar_o_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1729408600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Realizo uma pesquisa com o nome \"Open banking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Open banking",
+                  "offset": 33
+                }
+              ],
+              "location": "PesquisaStep.pesquisoNome(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65579400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Valido que foi exibido o resultado para o nome informando",
+            "match": {
+              "location": "PesquisaStep.validoResultadoEncontrado()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Consultar vagas",
+    "description": "",
+    "id": "consultar-vagas",
+    "keyword": "Feature",
+    "uri": "Pesquisa.feature"
+  }
+]
